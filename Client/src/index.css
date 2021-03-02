@@ -1,0 +1,62 @@
+body {
+  padding:0;
+  margin: 0;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+width: 100%;
+background-image: url(https://images.pexels.com/photos/4642408/pexels-photo-4642408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+
+
+animation-name:animate;
+animation-direction:alternate-reverse ;
+animation-duration: 50s ;
+animation-fill-mode:forwards ;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function:ease-in-out ;
+
+
+  
+}
+
+@keyframes animate{
+
+0%{
+  background-image: url(https://images.pexels.com/photos/3692641/pexels-photo-3692641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+20%{
+  background-image: url(https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+40%{
+  background-image: url(https://images.pexels.com/photos/802195/pexels-photo-802195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+
+60%{
+  background-image: url(https://images.pexels.com/photos/3596675/pexels-photo-3596675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+80%{
+  background-image: url(https://images.pexels.com/photos/3871033/pexels-photo-3871033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+100%{
+  background-image: url(https://images.pexels.com/photos/4642408/pexels-photo-4642408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+}

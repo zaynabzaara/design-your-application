@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+display: flex;
+justify-content: space-evenly;
+height:1cm;
+background-color: black;
+
+
+}
+.home{
+color: black;
+opacity: 100%;
+text-decoration: none;
+text-align: center;
+text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+.text{
+ 
+  background: rgba(0, 0, 0, 0.6);
+color: #f2f2f2;
+  text-align: center;
+  margin-top: 100px;
+  padding: 30px 150px;
+  
+  
+}
+
+
+
+
+
+.topnav {
+  position: relative;
+  background-color: rgb(39, 37, 37);
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color:  #007E90;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #007E90;
+  color: white;
+}
+
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.topnav-right {
+  float: right;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+.users{
+
+  margin-top: 0;
+  background: black;
+  opacity: 48%;
+  
+}
+
+
+.users > p{
+ 
+  font-size: 25px;
+  color: white;
+  opacity: 100%;
+}
+
+.signIn{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  color: #f2f2f2;
+
+
+background-color: rgba(0, 0, 0, 0.884);
+ 
+  padding: 40px;
+  border-radius: 9px;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18em
+
+}
+
+button{
+color: thistle;
+  margin-top: 25px; 
+  background-color: teal;
+  box-shadow: none;
+}
+
+input{
+display: flex;
+justify-content: center;
+margin: 10px;
+  border-radius: 5px;
+
+}
+
+.signUp{
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  color: #f2f2f2;
+ 
+  background-color: rgba(0, 0, 0, 0.884);
+   
+    padding: 40px;
+    border-radius: 9px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19em
+  
+
+}
+
+
+.holder{
+background-color: rgba(0, 0, 0, 0.8);
+margin: 0;
+
+}
+
+/* .envelope{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+
+}
+
+.photo{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img{
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+} */
+
+
+.btn{
+
+
+margin-right: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+color: white;
+background-color: transparent;
+border: none;
+outline:none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.imgs{
+width: 100%;
+height: auto;
+}
+
+
+.imgs:hover{
+  width: 100%;
+  height: 100%;
+}
+
+
